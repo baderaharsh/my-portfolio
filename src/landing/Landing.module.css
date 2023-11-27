@@ -1,0 +1,11 @@
+.img {
+    height: 45%;
+    width: 45%;
+    mask-image: linear-gradient(to right, rgba(0, 0, 0, 1.0) 50%, transparent 100%);
+}
+
+p {
+    margin: 0px;
+    font-size: 8rem;
+    transform: rotate(90deg);
+}
