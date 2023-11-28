@@ -1,44 +1,8 @@
-div {
+.div {
     display: flex;
     flex-direction: row;
-    justify-content: right;
-}
-
-.innerDivForImage {
-    height: 45vh;
-    width: 45vw;
-    padding: 0px;
-    margin: 0px;
-}
-
-img {
-    mask-image: linear-gradient(to right, rgba(0, 0, 0, 1.0) 50%, transparent 100%);
-    margin: 0px;
-    padding: 0px;
-    max-height: 50vh;
-    max-width: 50vw;
-    position: absolute;
-    right: 20vw;
-    top: 16vh;
-}
-
-h1 {
-    margin: 0px;
-    padding: 0px;
-    font-size: 12vh;
-    transform: rotate(-90deg);
-    position: absolute;
-    right: 18vw;
-    top: 35vh;
-    animation-name: slide-up;
-    animation-duration: 1.5s;
-}
-
-@keyframes slide-up {
-	from {
-        top: 45vh;
-    }
-    to {
-        top: 35vh;
-    }
+    justify-content: center;
+    width: 100%;
+    background-color: #252427;
+    height: 100vh;
 }

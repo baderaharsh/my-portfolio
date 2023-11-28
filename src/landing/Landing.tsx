@@ -1,13 +1,13 @@
 import React from "react";
 import classes from "./Landing.module.css";
+import Image from "./Image";
+import Introduction from "./Introduction"
 
 function Landing() {
-    return <div className={classes.divForImg}>
-        <div className={classes.innerDivForImage}>
-            <img src="/harsh.png" alt="me" className={classes.img} />
-            <h1 className="">HARSH</h1>
-        </div>
-    </div>
+   return <div className={classes.div}>
+        <Introduction />
+        <Image />
+   </div>
 }
 
 export default Landing;
