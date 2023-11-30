@@ -1,11 +1,10 @@
-import React, { Fragment } from "react";
 import classes from "./Landing.module.css";
+import Image from "./image/Image";
+import Introduction from "./introduction/Introduction"
 
-function Landing() {
-    return <Fragment>
-        <img src="/harsh.png" alt="me" className={classes.img}/>
-        <p className="">HARSH</p>
-    </Fragment>
+export default function Landing() {
+   return <div className={classes.div}>
+        <Introduction />
+        <Image />
+   </div>
 }
-
-export default Landing;

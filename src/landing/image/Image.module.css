@@ -1,0 +1,42 @@
+.innerDivForImage {
+    height: 45vh;
+    width: 45vw;
+    padding: 0px;
+    margin: 0px;
+}
+
+img {
+    mask-image: linear-gradient(to right, rgba(0, 0, 0, 1.0) 50%, transparent 100%);
+    margin: 0px;
+    padding: 0px;
+    max-height: 50vh;
+    max-width: 50vw;
+    position: absolute;
+    right: 15vw;
+    top: 16vh;
+    z-index: 1;
+}
+
+.name {
+    margin: 0px;
+    margin-left: 5vw;
+    padding: 0px;
+    font-size: 12vh;
+    transform: rotate(-90deg);
+    position: absolute;
+    right: 12.5vw;
+    top: 35vh;
+    animation-name: slide-up;
+    animation-duration: 1.5s;
+    color: #0081B4;
+    z-index: 0;
+}
+
+@keyframes slide-up {
+	from {
+        top: 45vh;
+    }
+    to {
+        top: 35vh;
+    }
+}

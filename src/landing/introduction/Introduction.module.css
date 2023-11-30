@@ -1,0 +1,42 @@
+.introDiv {
+    padding-top: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: #F6F1F1;
+}
+
+.mpa {
+    margin: 8px 0px;
+    padding: 0px;
+    animation-name: slide-in;
+    position: relative;
+}
+
+.hello {
+    animation-duration: 0.8s;
+}
+
+.name {
+    animation-duration: 1s;
+}
+
+.bio {
+    animation-duration: 1.4s;
+    max-width: 40vw;
+    word-wrap: break-word;
+    text-align: justify;
+}
+
+.tooltip {
+    border-bottom: 3px dotted #0081B4;
+}
+
+@keyframes slide-in {
+    from {
+        left: -40px;
+    }
+    to {
+        left: 0px;
+    }
+}
