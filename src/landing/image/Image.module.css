@@ -1,10 +1,3 @@
-
-div {
-    display: flex;
-    flex-direction: row;
-    justify-content: right;
-}
-
 .innerDivForImage {
     height: 45vh;
     width: 45vw;
@@ -26,6 +19,7 @@ img {
 
 .name {
     margin: 0px;
+    margin-left: 5vw;
     padding: 0px;
     font-size: 12vh;
     transform: rotate(-90deg);
