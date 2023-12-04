@@ -1,0 +1,28 @@
+.cvButton {
+    margin-left: 15px;
+    animation-name: cv-button;
+    animation-duration: 1s;
+    position: relative;
+}
+
+@keyframes cv-button {
+    0% {
+        visibility: hidden;
+        right: 50px;
+    }
+
+    50% {
+        visibility: hidden;
+        right: 50px;
+    }
+
+    51% {
+        visibility: visible;
+        opacity: 0.2;
+    }
+
+    to {
+        visibility: visible;
+        right: 0px;
+    }
+}

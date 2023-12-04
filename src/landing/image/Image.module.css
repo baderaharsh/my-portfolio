@@ -12,7 +12,7 @@ img {
     max-height: 50vh;
     max-width: 50vw;
     position: absolute;
-    right: 15vw;
+    right: 10vw;
     top: 16vh;
     z-index: 1;
 }
@@ -24,7 +24,7 @@ img {
     font-size: 12vh;
     transform: rotate(-90deg);
     position: absolute;
-    right: 12.5vw;
+    right: 7.3vw;
     top: 35vh;
     animation-name: slide-up;
     animation-duration: 1.5s;
