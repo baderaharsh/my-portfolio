@@ -1,42 +1,30 @@
 .innerDivForImage {
-    height: 45vh;
-    width: 45vw;
-    padding: 0px;
-    margin: 0px;
+    width: 50vw;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-img {
-    mask-image: linear-gradient(to right, rgba(0, 0, 0, 1.0) 50%, transparent 100%);
+.image {
     margin: 0px;
     padding: 0px;
-    max-height: 50vh;
-    max-width: 50vw;
-    position: absolute;
-    right: 15vw;
-    top: 16vh;
-    z-index: 1;
+    max-height: 70%;
+    max-width: 70%;
+    position: relative;
+    animation-name: image-animation;
+    animation-duration: 1s;
+
 }
 
-.name {
-    margin: 0px;
-    margin-left: 5vw;
-    padding: 0px;
-    font-size: 12vh;
-    transform: rotate(-90deg);
-    position: absolute;
-    right: 12.5vw;
-    top: 35vh;
-    animation-name: slide-up;
-    animation-duration: 1.5s;
-    color: #0081B4;
-    z-index: 0;
-}
-
-@keyframes slide-up {
-	from {
-        top: 45vh;
-    }
-    to {
-        top: 35vh;
+@keyframes image-animation {
+    from {
+        top: 40px;
+        opacity: 0.5;
+    } to {
+        top: 0px;
+        opacity: 1;
     }
 }
