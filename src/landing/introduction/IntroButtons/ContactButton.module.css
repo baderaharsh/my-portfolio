@@ -1,0 +1,13 @@
+.contactButton {
+    animation-name: contact-button;
+    animation-duration: 1s;
+    position: relative;
+}
+
+@keyframes contact-button {
+    from {
+        right: 25px;
+    } to {
+        right: 0px;
+    }
+}
