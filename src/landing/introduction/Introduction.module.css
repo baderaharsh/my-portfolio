@@ -45,7 +45,7 @@
     }
 }
 
-@media screen and (max-width : 980px) {
+@media screen and (max-width : 980px) and (orientation: portrait) {
 
     .introDiv {
         padding-top: 3rem;
