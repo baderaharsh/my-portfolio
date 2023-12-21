@@ -30,6 +30,7 @@
 
 @media screen and (max-width : 980px) {
     .innerDivForImage {
+        padding-top: 5vh;
         width: 100vw;
         overflow: hidden;
         height: fit-content;

@@ -23,7 +23,10 @@
     }
 }
 
-@media screen and (max-width: 980px) {    
+@media screen and (max-width: 980px) {
+    .ext {
+        top: 3rem;
+    }
     .extButton {
         font-size: 6rem !important;
     }
