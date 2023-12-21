@@ -26,3 +26,10 @@
         right: 0px;
     }
 }
+
+@media screen and (max-width: 980px){
+    
+    .cvButton {
+        margin-left: 2rem;
+    }
+}

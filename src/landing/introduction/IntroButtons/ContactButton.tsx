@@ -2,6 +2,7 @@ import { Button } from "@mui/material";
 import { useState } from "react";
 import ContactDialog from "./ContactDialog";
 import classes from "./ContactButton.module.css"
+import btnClasses from "./ActionButtons.module.css";
 
 export default function ContactButton() {
 
@@ -11,7 +12,7 @@ export default function ContactButton() {
     const handleClose = () => setOpen(false);
 
     return <div className={classes.contactButton}>
-        <Button variant="contained" style={{ color: "#F6F1F1", backgroundColor: "#0081B4" }} onClick={handleClickOpen} >Contact ME</Button>
+        <Button className={btnClasses.actionButtons} variant="contained" style={{ color: "#F6F1F1", backgroundColor: "#0081B4" }} onClick={handleClickOpen} >Contact ME</Button>
         <ContactDialog open={open} onClose={handleClose} />
     </div>
 }

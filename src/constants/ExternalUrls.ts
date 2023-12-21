@@ -6,5 +6,5 @@ export const enum ExternalUrls {
     Email = "mailto:baderaharsh@gmail.com",
     EmailAddress = "baderaharsh@gmail.com",
     Phone = "+91-8446889029",
-    CV = "https://drive.google.com/uc?export=download&id=1GZDtxywXM-jHoX2Ie_H5QglM9CBX5K7k"
+    CV = "https://drive.google.com/uc?export=download&id=16HzwjbYQQEfbAh_REuJGKxD1jD34nXg3"
 }
