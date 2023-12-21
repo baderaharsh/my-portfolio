@@ -2,7 +2,9 @@
     padding-top: 25vh;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
     color: #F6F1F1;
 }
 
@@ -40,5 +42,25 @@
     to {
         left: 0px;
         opacity: 1;
+    }
+}
+
+@media screen and (max-width : 980px) and (orientation: portrait) {
+
+    .introDiv {
+        padding-top: 3rem;
+    }
+
+    .hello {
+        font-size: 4rem;
+    }
+
+    .name {
+        font-size: 6rem;
+    }
+
+    .bio {
+        font-size: 3rem;
+        max-width: 70vw;
     }
 }

@@ -26,3 +26,10 @@
         right: 0px;
     }
 }
+
+@media screen and (max-width: 980px) and (orientation: portrait){
+    
+    .cvButton {
+        margin-left: 2rem;
+    }
+}

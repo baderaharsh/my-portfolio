@@ -10,11 +10,24 @@
     animation-duration: 1.5s;
 }
 
+.extButton {
+    font-size: 2rem;
+}
+
 @keyframes ext-animation {
     from {
         left: 20px;
     }
     to {
         left: 0px;
+    }
+}
+
+@media screen and (max-width: 980px) and (orientation: portrait) {
+    .ext {
+        top: 3rem;
+    }
+    .extButton {
+        font-size: 6rem !important;
     }
 }
