@@ -1,6 +1,6 @@
 import { Button } from "@mui/material";
 import classes from "./CvButton.module.css"
-import { ExternalUrls } from "../../../constants/ExternalUrls";
+import { ExternalUrls } from "../../../../constants/ExternalUrls";
 import btnClasses from "./ActionButtons.module.css"
 
 export default function CvButton() {

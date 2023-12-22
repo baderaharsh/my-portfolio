@@ -1,6 +1,6 @@
 import { ContentCopy, Email, Phone } from "@mui/icons-material";
 import { Avatar, Button, Dialog, DialogActions, DialogTitle, IconButton, List, ListItem, ListItemAvatar, ListItemText } from "@mui/material";
-import { ExternalUrls } from "../../../constants/ExternalUrls";
+import { ExternalUrls } from "../../../../constants/ExternalUrls";
 import classes from "./ContactDialog.module.css";
 
 interface Props {
