@@ -5,8 +5,10 @@ import { Quantiphi, Rain, IBM } from "../../constants/Organization"
 export default function Overview() {
 
     return <div className={classes.overview}>
-        <OverviewImage organization={Quantiphi} />
-        <OverviewImage organization={Rain} />
-        <OverviewImage organization={IBM} />
+        <div className={classes.innerOverview}>
+            <OverviewImage organization={Quantiphi} />
+            <OverviewImage organization={Rain} />
+            <OverviewImage organization={IBM} />
+        </div>
     </div>
 }

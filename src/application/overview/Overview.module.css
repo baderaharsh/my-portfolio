@@ -1,9 +1,38 @@
 .overview {
+    position: absolute;
+    width: 100%;
+}
+
+.innerOverview {
+    margin: 0px auto;
+    width: 80vw;
+    padding: 1rem 0rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    padding: 1rem 0rem;
-    background-color: #232026;
+    flex-wrap: wrap;
+    background-color: #2e2d30;
+    transform: translateY(-50%);
+    border-radius: 2rem;
+    -webkit-box-shadow: 0 0 10px #0081B4;
+    box-shadow: 0 0 10px #0081B4;
+}
+
+@media screen and (max-width: 980px) and (orientation: portrait) {
+    .overview {
+        /* position: relative;
+        width: 100%; */
+    }
+    .innerOverview {
+        /* flex-direction: column;
+        transform: translateY(0px);
+        width: 100%;
+        border-radius: 0rem; */
+        transform: translateY(0px);
+        width: 100%;
+        border-radius: 0rem;
+        -webkit-box-shadow: 0;
+        box-shadow: none;
+    }
 }
