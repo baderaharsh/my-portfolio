@@ -6,7 +6,7 @@ export default function Overview() {
 
     return <div className={classes.overview}>
         <div className={classes.overviewCard}>
-            <h1>Experience</h1>
+            <h2>Experience</h2>
             <div className={classes.innerOverview}>
                 <OverviewImage organization={Quantiphi} />
                 <OverviewImage organization={Rain} />
