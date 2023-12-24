@@ -1,5 +1,6 @@
 .overviewImgDiv {
     height: 6rem;
+    margin: 0px;
 }
 
 .logo {
@@ -14,15 +15,13 @@
     right: 50%;
     bottom: 45%;
     font-weight: bold;
-    border-width: 3px;
 }
 
 .overviewImgDiv:hover {
     .btn {
         visibility: visible;
-        border-width: 3px;
     }
     .logo {
-        opacity: 0.1;
+        opacity: 0.4;
     }
 }

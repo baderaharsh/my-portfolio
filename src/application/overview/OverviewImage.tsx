@@ -10,6 +10,6 @@ export default function OverviewImage(props: Props) {
 
     return <div className={classes.overviewImgDiv}>
         <img className={classes.logo} src={props.organization.imagePath} alt={props.organization.alt} />
-        <Button className={classes.btn} variant="outlined">Details</Button>
+        <Button className={classes.btn} variant="contained">Details</Button>
     </div>
 }
