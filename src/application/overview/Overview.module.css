@@ -3,36 +3,50 @@
     width: 100%;
 }
 
-.innerOverview {
+.overviewCard {
     margin: 0px auto;
     width: 80vw;
     padding: 1rem 0rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
     background-color: #2e2d30;
     transform: translateY(-50%);
     border-radius: 2rem;
     -webkit-box-shadow: 0 0 10px #0081B4;
     box-shadow: 0 0 10px #0081B4;
+    text-align: center;
+    color: #F6F1F1;
 }
 
-@media screen and (max-width: 980px) and (orientation: portrait) {
+h1 {
+    margin: 0px;
+    margin-bottom: 0.5rem;
+}
+
+.innerOverview {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 980px) {
     .overview {
-        /* position: relative;
-        width: 100%; */
-    }
-    .innerOverview {
-        /* flex-direction: column;
-        transform: translateY(0px);
+        position: relative;
         width: 100%;
-        border-radius: 0rem; */
+    }
+
+    .overviewCard {
         transform: translateY(0px);
         width: 100%;
         border-radius: 0rem;
         -webkit-box-shadow: 0;
         box-shadow: none;
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (orientation: landscape) {
+    .overviewCard {
+        font-size: 1rem;
     }
 }
