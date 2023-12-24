@@ -1,6 +1,6 @@
 import { LinkedIn, Instagram, GitHub, HdrWeakOutlined, Email } from "@mui/icons-material";
 import classes from "./ExternalRef.module.css"
-import { ExternalUrls } from "../../constants/ExternalUrls";
+import { ExternalUrls } from "../../../constants/ExternalUrls";
 import CustomIcon from "./CustomIcon";
 
 export default function ExternalRef() {

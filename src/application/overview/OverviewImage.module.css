@@ -1,0 +1,28 @@
+.overviewImgDiv {
+    height: 6rem;
+}
+
+.logo {
+    width: fit-content;
+    height: 100%;
+    border-radius: 1.5rem;
+}
+
+.btn {
+    visibility: hidden;
+    position: relative;
+    right: 50%;
+    bottom: 45%;
+    font-weight: bold;
+    border-width: 3px;
+}
+
+.overviewImgDiv:hover {
+    .btn {
+        visibility: visible;
+        border-width: 3px;
+    }
+    .logo {
+        opacity: 0.1;
+    }
+}
