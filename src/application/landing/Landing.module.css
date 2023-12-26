@@ -14,3 +14,9 @@
         padding-bottom: 5vh;
     }
 }
+
+@media screen and (max-height: 620px) {
+    .landing  {
+        height: 120vh;
+    }
+}

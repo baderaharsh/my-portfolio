@@ -1,9 +1,56 @@
 .overview {
+    position: absolute;
+    width: 100%;
+}
+
+.overviewCard {
+    margin: 0px auto;
+    width: 80vw;
+    padding: 1rem 0rem;
+    background-color: #2e2d30;
+    transform: translateY(-50%);
+    border-radius: 2rem;
+    -webkit-box-shadow: 0 0 10px #0081B4;
+    box-shadow: 0 0 10px #0081B4;
+    text-align: center;
+    color: #F6F1F1;
+}
+
+h2 {
+    margin: 0px;
+    margin-bottom: 0.5rem;
+}
+
+.organizations {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    padding: 1rem 0rem;
-    background-color: #232026;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 980px) {
+    .overview {
+        position: relative;
+        width: 100%;
+    }
+
+    .overviewCard {
+        transform: translateY(0px);
+        width: 100%;
+        border-radius: 0rem;
+        -webkit-box-shadow: 0;
+        box-shadow: none;
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (orientation: landscape) {
+    .overviewCard {
+        font-size: 1rem;
+    }
 }

@@ -1,12 +1,15 @@
 import classes from "./Overview.module.css";
+import json from "../../constants/fullTimeExperience.json";
 import OverviewImage from "./OverviewImage";
-import { Quantiphi, Rain, IBM } from "../../constants/Organization"
 
 export default function Overview() {
 
     return <div className={classes.overview}>
-        <OverviewImage organization={Quantiphi} />
-        <OverviewImage organization={Rain} />
-        <OverviewImage organization={IBM} />
+        <div className={classes.overviewCard}>
+            <h2>Experience</h2>
+            <div className={classes.organizations}>
+                {json.organizations.map(org => <OverviewImage organization={org} />)}
+            </div>
+        </div>
     </div>
 }

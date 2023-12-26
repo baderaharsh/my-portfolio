@@ -1,6 +1,7 @@
 import React, { Fragment } from "react";
 import Landing from "./landing/Landing";
 import Overview from "./overview/Overview";
+import Skills from "./skills/Skills";
 
 
 function Main() {
@@ -8,6 +9,7 @@ function Main() {
         {/* <Navigator /> */}
         <Landing />
         <Overview />
+        <Skills />
         {/* <Footer /> */}
     </Fragment>
 }

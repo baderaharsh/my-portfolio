@@ -1,15 +1,17 @@
 import classes from "./OverviewImage.module.css";
-import { Organization } from "../../constants/Organization";
 import { Button } from "@mui/material";
 
 interface Props {
-    organization: Organization
+    organization: {
+        name: string,
+        logoUrl: string
+    }
 }
 
 export default function OverviewImage(props: Props) {
 
     return <div className={classes.overviewImgDiv}>
-        <img className={classes.logo} src={props.organization.imagePath} alt={props.organization.alt} />
-        <Button className={classes.btn} variant="outlined">Details</Button>
+        <img className={classes.logo} src={props.organization.logoUrl} alt={props.organization.name} />
+        <Button className={classes.btn} variant="contained">Details</Button>
     </div>
 }

@@ -1,5 +1,8 @@
 .overviewImgDiv {
     height: 6rem;
+    margin: 0.5rem;
+    width: fit-content;
+    position: relative;
 }
 
 .logo {
@@ -10,19 +13,34 @@
 
 .btn {
     visibility: hidden;
-    position: relative;
+    position: absolute !important;
     right: 50%;
     bottom: 45%;
-    font-weight: bold;
-    border-width: 3px;
+    transform: translate(50%, 45%);
 }
 
 .overviewImgDiv:hover {
     .btn {
         visibility: visible;
-        border-width: 3px;
     }
     .logo {
-        opacity: 0.1;
+        opacity: 0.4;
+    }
+}
+
+@media screen and (max-width: 980px) and (orientation: portrait) {
+    .overviewImgDiv {
+        width: 35vw;
+        height: fit-content;
+        margin: 1rem 2rem;
+    }
+
+    .logo {
+        width: 100%;
+        height: auto;
+    }
+
+    .btn {
+        font-size: 2.2rem !important;
     }
 }
