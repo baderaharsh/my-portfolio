@@ -21,7 +21,7 @@ h2 {
     margin-bottom: 0.5rem;
 }
 
-.innerOverview {
+.organizations {
     display: flex;
     flex-direction: row;
     justify-content: center;

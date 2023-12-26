@@ -1,0 +1,65 @@
+{
+    "organizations": [
+        {
+            "id": "quantiphi",
+            "name": "Quantiphi Analytics Solutions Pvt Ltd",
+            "from": "10/2022",
+            "isPresent": true,
+            "logoUrl": "/organizations/quantiphi.png",
+            "designation": "Software Developer",
+            "projects": [{
+                "client": "LeasePlan US",
+                "projectName": "EV Program",
+                "overview": "EV Program is a project that has an application to automate EV order processing, I am a sole software developer in the team for this project and I am entirely responsible for all the development that is being done and leading the project from offshore"
+            },
+            {
+                "client": "LeasePlan US",
+                "projectName": "OneConnect Telematics",
+                "overview": "OneConnect is a project that has end users (managers/supervisors) using a Frontend application for Telematics monitoring purpose. It has many microservices in backend to process telematics data and serve data to frontend"
+            }],
+            "responsibilities": [
+                "Developing highly scalable and robust new features & applications",
+                "Creating the services to generate/extract desired data from the captured telematics data",
+                "Enhancing and maintaining existing backend services and frontend components",
+                "Monitoring, debugging & resolving prod issues",
+                "Created a custom logging system to capture and store useful information for debugging and analytics",
+                "Developed health monitoring application to send notification in case of variance in targeted data"
+            ]
+        },
+        {
+            "id": "rain",
+            "name": "Rain Technology Service, Limited",
+            "from": "01/2022",
+            "to": "10/2022",
+            "isPresent": false,
+            "logoUrl": "/organizations/rain.png",
+            "designation": "TechOps Engineer",
+            "overview": "Rain is a licensed crypto exchange company, now serving several countries with its services. We, TechOps Engineers, are responsible to work with different teams/departments to resolve issues/bugs and monitor & configure system alerts",
+            "responsibilities": [
+                "Build user-friendly internal tools for various teams and departments to perform desired actions easily",
+                "Monitoring and debugging prod issues and resolve them",
+                "Configure system alerts to detect any issue/failures",
+                "Collaborating with respective teams to resolve issues in application"
+            ]
+        },
+        {
+            "id": "ibm",
+            "name": "IBM India Pvt Ltd",
+            "from": "03/2021",
+            "to": "01/2022",
+            "isPresent": false,
+            "logoUrl": "/organizations/ibm.png",
+            "designation": "Associate System Engineer",
+            "projects": [{
+                "client": "Barclays, US",
+                "overview": "Barclays is popular as an International Bank across the globe"
+            }],
+            "responsibilities": [
+                "Build user-friendly internal tools for various teams and departments to perform desired actions easily",
+                "Monitoring and debugging prod issues and resolve them",
+                "Configure system alerts to detect any issue/failures",
+                "Collaborating with respective teams to resolve issues in application"
+            ]
+        }
+    ]
+}
