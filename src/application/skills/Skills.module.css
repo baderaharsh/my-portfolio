@@ -1,0 +1,17 @@
+.skills {
+    background-color: #1e1d1f;
+    margin: 0px 0px;
+    height: max-content;
+    padding: 0px 10vw;
+}
+
+.skill {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+h1 {
+    margin: 0px;
+    margin-bottom: 1.5rem;
+}

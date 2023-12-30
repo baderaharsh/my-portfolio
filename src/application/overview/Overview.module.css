@@ -1,5 +1,5 @@
 .overview {
-    position: absolute;
+    background-color: #1e1d1f;
     width: 100%;
 }
 
@@ -13,7 +13,6 @@
     -webkit-box-shadow: 0 0 10px #0081B4;
     box-shadow: 0 0 10px #0081B4;
     text-align: center;
-    color: #F6F1F1;
 }
 
 h2 {
