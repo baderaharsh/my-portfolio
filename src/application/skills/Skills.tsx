@@ -5,9 +5,9 @@ import Skill from "./Skill";
 export default function Skills() {
 
     return <div className={classes.skills}>
-        <h1>Skills</h1>
+        <div className={classes.header}><h1>Skills</h1></div>
         <div className={classes.skill}>
-            {skillsJson.skills.map((skill) => <Skill skill={skill} />)}
+            {skillsJson.skills.map((skill) => <Skill key={skill.label} skill={skill} />)}
         </div>
     </div>
 }

@@ -11,6 +11,6 @@ export default function Skill(props: SkillParm) {
 
     return <div className={classes.skill}>
         <div className={classes.logo}><img src={props.skill.imageUrl} alt={props.skill.label} /></div>
-        <h3>{props.skill.label}</h3>
+        <h4>{props.skill.label}</h4>
     </div>
 }
