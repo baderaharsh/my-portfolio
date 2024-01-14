@@ -1,0 +1,32 @@
+.skill {
+    border: 1px solid #0081B4;
+    padding: 0.3rem 0.7rem;
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 2rem;
+    width: fit-content;
+}
+
+.logo {
+    height: 2rem;
+    width: 2rem;
+    background-color: #F6F1F1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+}
+
+.skill img {
+    height: 68%;
+    width: 68%;
+}
+
+.skill h4 {
+    margin-left: 0.8rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
