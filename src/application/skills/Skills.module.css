@@ -15,7 +15,7 @@
     transform: scaleY(70%);
     margin: 0px 2rem;
     background-color: #0081B4;
-    box-shadow: 0 0 10px #0081B4; 
+    box-shadow: 0 0 10px #0081B4;
 }
 
 .header {
@@ -35,4 +35,37 @@
 
 h1 {
     font-size: 2.5rem;
+}
+
+@media screen and (max-width: 980px) and (orientation: portrait) {
+
+    .skills {
+        padding-top: 2rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header {
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    .skill {
+        width: 80vw;
+        max-width: 100%;
+    }
+
+    .vl {
+        height: 0.4rem;
+        width: 80%;
+        margin-bottom: 2rem;
+        background-color: #0081B4;
+        box-shadow: 0 0 10px #0081B4;
+    }
 }
