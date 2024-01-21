@@ -1,0 +1,15 @@
+.experience {
+    margin: 0px;    
+    background-color: #1e1d1f;
+    
+}
+
+.experienceCard {
+    background-color: #252427;
+    border-top-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+}
+
+h1 {
+    margin: 0px;
+}
