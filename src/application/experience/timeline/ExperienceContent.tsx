@@ -16,7 +16,7 @@ export default function ExperienceContent(props: Props) {
         <h4 className={classes.designation}>{org.designation}</h4>
         {org.projects != null && org.projects.length > 0 ? 
         <Fragment>
-            <h4>Projects</h4>
+            <h4 className={classes.projects}>Projects</h4>
             {org.projects.map(project => <Project key={project.projectName} name={project.projectName} client={project.client} overview={project.overview} />)}
         </Fragment>
         : null}

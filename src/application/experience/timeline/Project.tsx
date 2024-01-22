@@ -24,14 +24,14 @@ export default function Project(props: Props) {
         }
     }
 
-    return <Fragment>
+    return <div className={classes.projectDetail}>
         <h5>{getProjectBio(props.name, props.client)} </h5>
         {props.overview != null || props.overview !== undefined ? 
         <Fragment>
             <p className={classes.overview}>{visibleOverview} {props.overview.length > 50 ? <span className={classes.readMore} onClick={handler}>{textButton.current}</span> : null }</p> 
         </Fragment>
          : ""}
-    </Fragment>
+    </div>
 }
 
 function getProjectBio(name: string | undefined, client: string | undefined) {

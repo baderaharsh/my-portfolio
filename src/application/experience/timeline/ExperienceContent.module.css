@@ -1,5 +1,5 @@
 .experienceCard {
-    background-color: #F6F1EE;
+    background-color: #F6F1F1;
     border-radius: 2rem;
     padding: 1rem 1rem;
     color: #4F4A45;
@@ -10,9 +10,13 @@ h4, h3 {
 }
 
 .designation {
-    color: #ED7D31;
+    color: #146C94;
 }
 
 .experienceCard h5 {
     margin: 0px;
+}
+
+.projects {
+    margin-top: 1rem;
 }
