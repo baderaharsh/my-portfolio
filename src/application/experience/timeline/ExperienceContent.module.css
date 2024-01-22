@@ -1,0 +1,18 @@
+.experienceCard {
+    background-color: #F6F1EE;
+    border-radius: 2rem;
+    padding: 1rem 1rem;
+    color: #4F4A45;
+}
+
+h4, h3 {
+    margin: 0;
+}
+
+.designation {
+    color: #ED7D31;
+}
+
+.experienceCard h5 {
+    margin: 0px;
+}
