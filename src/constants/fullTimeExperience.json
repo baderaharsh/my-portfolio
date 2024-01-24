@@ -3,7 +3,7 @@
         {
             "id": "quantiphi",
             "name": "Quantiphi Analytics Solutions Pvt Ltd",
-            "from": "10/2022",
+            "from": "2023-10-03",
             "isPresent": true,
             "logoUrl": "/organizations/quantiphi.png",
             "designation": "Software Developer",
@@ -29,8 +29,8 @@
         {
             "id": "rain",
             "name": "Rain Technology Service, Limited",
-            "from": "01/2022",
-            "to": "10/2022",
+            "from": "2022-01-17",
+            "to": "2022-09-30",
             "isPresent": false,
             "logoUrl": "/organizations/rain.png",
             "designation": "TechOps Engineer",
@@ -45,8 +45,8 @@
         {
             "id": "ibm",
             "name": "IBM India Pvt Ltd",
-            "from": "03/2021",
-            "to": "01/2022",
+            "from": "2021-03-15",
+            "to": "2022-01-13",
             "isPresent": false,
             "logoUrl": "/organizations/ibm.png",
             "designation": "Associate System Engineer",
