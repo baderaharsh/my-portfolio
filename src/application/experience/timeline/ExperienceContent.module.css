@@ -1,16 +1,19 @@
 .experienceCard {
+
+    text-align: left;
     background-color: #F6F1F1;
     border-radius: 2rem;
     padding: 1rem 1rem;
     color: #4F4A45;
+    max-width: 636px;
 }
-
+    
 h4, h3 {
     margin: 0;
 }
 
 .designation {
-    color: #146C94;
+    color: #0081B4;
 }
 
 .experienceCard h5 {
@@ -19,4 +22,15 @@ h4, h3 {
 
 .projects {
     margin-top: 1rem;
+}
+
+.responsibilities {
+    padding-left: 1rem;
+}
+
+.responsibility {
+    padding-left: 0.5rem;
+    list-style-type: none;
+    border-left: 3px solid #0081B4;
+    margin: 0.5rem 0px;
 }

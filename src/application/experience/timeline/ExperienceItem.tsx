@@ -9,12 +9,12 @@ interface Props {
 
 export default function ExperienceItem(props: Props) {
     let to = props.exp.to != null ? props.exp.to : "Present";
-    return <TimelineItem id={`${props.exp.id}`}>
+    return <TimelineItem>
                 <TimelineOppositeContent
                 sx={{m: 'auto 0'}}
                 align="right"
                 variant="body2"
-                color="white"> <h2>{props.exp.from}-{to}</h2>
+                color="white"> <h2>{props.exp.from} - {to}</h2>
                 </TimelineOppositeContent>
                 <TimelineSeparator>
                     <TimelineConnector />

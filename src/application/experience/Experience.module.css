@@ -1,15 +1,23 @@
 .experience {
     margin: 0px;    
     background-color: #1e1d1f;
-    
 }
 
-.experienceCard {
+.experienceInnerDiv {
     background-color: #252427;
     border-top-right-radius: 2rem;
     border-top-left-radius: 2rem;
+    padding-bottom: 5rem;
+    text-align: center;
 }
 
-h1 {
+.timeline {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.experienceInnerDiv h1 {
     margin: 0px;
+    padding: 2.5rem 0px;
 }

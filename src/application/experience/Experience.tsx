@@ -6,12 +6,16 @@ import { Timeline } from "@mui/lab";
 
 export default function Experience() {
 
+    json.organizations.sort((org1, org2) => Date.parse(org2.from) - Date.parse(org1.from));
+
     return <div className={classes.experience}>
-        <div className={classes.experienceCard}>
-            <h1>Experience goes here</h1>
-            <Timeline position="alternate">
-                {json.organizations.map(org => <ExperienceItem exp={org} />)}
-            </Timeline>
+        <div className={classes.experienceInnerDiv}>
+            <h1>Experience</h1>
+            <div className={classes.timeline}>
+                <Timeline position="alternate" sx={{ maxWidth: "1480px" }}>
+                    {json.organizations.map(org => <ExperienceItem key={org.id} exp={org} />)}
+                </Timeline>
+            </div>
         </div>
     </div>
 }

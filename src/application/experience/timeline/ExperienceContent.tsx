@@ -11,7 +11,7 @@ export default function ExperienceContent(props: Props) {
 
     let org = props.org;
 
-    return <div className={classes.experienceCard}>
+    return <div id={`${org.id}`} className={classes.experienceCard}>
         <h3>{org.name}</h3>
         <h4 className={classes.designation}>{org.designation}</h4>
         {org.projects != null && org.projects.length > 0 ? 
@@ -20,5 +20,8 @@ export default function ExperienceContent(props: Props) {
             {org.projects.map(project => <Project key={project.projectName} name={project.projectName} client={project.client} overview={project.overview} />)}
         </Fragment>
         : null}
+        <ul className={classes.responsibilities}>
+            {org.responsibilities?.map(resposibility => <li key={resposibility} className={classes.responsibility}>{resposibility}</li>)}
+        </ul>
     </div>
 }
