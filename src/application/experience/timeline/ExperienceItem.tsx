@@ -4,7 +4,8 @@ import classes from "./ExperienceItem.module.css";
 import ExperienceContent from "./ExperienceContent";
 
 interface Props {
-    exp: Organization;
+    exp: Organization,
+    screenWidth: number;
 }
 
 export default function ExperienceItem(props: Props) {
@@ -22,7 +23,7 @@ export default function ExperienceItem(props: Props) {
                     <TimelineConnector />
                 </TimelineSeparator>
                 <TimelineContent>
-                    <ExperienceContent org={props.exp}/>
+                    <ExperienceContent org={props.exp} screenWidth={props.screenWidth}/>
                 </TimelineContent>
             </TimelineItem>
 }

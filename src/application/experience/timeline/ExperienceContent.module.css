@@ -34,3 +34,30 @@ h4, h3 {
     border-left: 3px solid #0081B4;
     margin: 0.5rem 0px;
 }
+
+@media screen and (max-width: 980px) and (orientation: portrait) {
+    
+    .experienceCard {
+        width: 90vw;
+        max-width: 100%;
+        margin: 2rem 0px;
+    }
+
+    h3 {
+        font-size: 3rem;
+    }
+
+    h4 {
+        font-size: 2rem;
+    }
+
+    .responsibility {
+        font-size: 2rem;
+        border-left: 6px solid #0081B4;
+    }
+
+    .duration {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+}
