@@ -6,6 +6,7 @@ interface Props {
         name: string,
         logoUrl: string,
         id: string
+
     }
 }
 
