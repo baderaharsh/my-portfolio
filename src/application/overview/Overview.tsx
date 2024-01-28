@@ -6,9 +6,9 @@ export default function Overview() {
 
     return <div className={classes.overview}>
         <div className={classes.overviewCard}>
-            <h2>Experience</h2>
+            <h2>I have worked at...</h2>
             <div className={classes.organizations}>
-                {json.organizations.map(org => <OverviewImage organization={org} />)}
+                {json.organizations.map(org => <OverviewImage key={org.id} organization={org} />)}
             </div>
         </div>
     </div>

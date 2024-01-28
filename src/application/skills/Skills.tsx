@@ -1,6 +1,14 @@
+import classes from "./Skills.module.css";
+import skillsJson from "../../constants/skills.json";
+import Skill from "./Skill";
+
 export default function Skills() {
 
-    return <div style={{backgroundColor:"#1e1d1f", margin: "0px 0px"}}>
-        <h1 style={{margin: "0px 0px", paddingTop: "100px"}}>Skills Section</h1>
+    return <div className={classes.skills}>
+        <div className={classes.header}><h2>Skills</h2></div>
+        <div className={classes.vl} />
+        <div className={classes.skill}>
+            {skillsJson.skills.map((skill) => <Skill key={skill.label} skill={skill} />)}
+        </div>
     </div>
 }

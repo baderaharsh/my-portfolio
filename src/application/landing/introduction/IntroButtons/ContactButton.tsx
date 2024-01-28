@@ -12,7 +12,7 @@ export default function ContactButton() {
     const handleClose = () => setOpen(false);
 
     return <div className={classes.contactButton}>
-        <Button className={btnClasses.actionButtons} variant="contained" style={{ color: "#F6F1F1", backgroundColor: "#0081B4" }} onClick={handleClickOpen} >Contact ME</Button>
+        <Button className={btnClasses.actionButtons} variant="contained" style={{backgroundColor: "#0081B4" }} onClick={handleClickOpen} >Contact ME</Button>
         <ContactDialog open={open} onClose={handleClose} />
     </div>
 }

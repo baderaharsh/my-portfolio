@@ -1,22 +1,22 @@
 .overview {
-    position: absolute;
+    background-color: #1e1d1f;
     width: 100%;
 }
 
 .overviewCard {
     margin: 0px auto;
-    width: 80vw;
-    padding: 1rem 0rem;
+    width: fit-content;
+    padding: 1rem 5rem;
     background-color: #2e2d30;
     transform: translateY(-50%);
     border-radius: 2rem;
     -webkit-box-shadow: 0 0 10px #0081B4;
     box-shadow: 0 0 10px #0081B4;
     text-align: center;
-    color: #F6F1F1;
 }
 
 h2 {
+    font-size: 2rem;
     margin: 0px;
     margin-bottom: 0.5rem;
 }
@@ -36,6 +36,7 @@ h2 {
     }
 
     .overviewCard {
+        padding: 1rem 0rem;
         transform: translateY(0px);
         width: 100%;
         border-radius: 0rem;

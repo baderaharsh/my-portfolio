@@ -1,0 +1,72 @@
+{
+    "skills": [
+        {
+            "label": "Java",
+            "imageUrl": "/skills/java.svg"
+        },
+        {
+            "label": "Spring Boot",
+            "imageUrl": "/skills/spring.svg"
+        },
+        {
+            "label": "React",
+            "imageUrl": "/skills/react.svg"
+        },
+        {
+            "label": "JavaScript",
+            "imageUrl": "/skills/javascript.svg"
+        },
+        {
+            "label": "TypeScript",
+            "imageUrl": "/skills/typescript.svg"
+        },
+        {
+            "label": "Golang",
+            "imageUrl": "/skills/golang.svg"
+        },
+        {
+            "label": "SQL",
+            "imageUrl": "/skills/sql.svg"
+        },
+        {
+            "label": "NoSQL",
+            "imageUrl": "/skills/database.svg"
+        },
+        {
+            "label": "AWS",
+            "imageUrl": "/skills/aws.svg"
+        },
+        {
+            "label": "Firebase",
+            "imageUrl": "/skills/firebase.svg"
+        },
+        {
+            "label": "Git",
+            "imageUrl": "/skills/git.svg"
+        },
+        {
+            "label": "Flutter",
+            "imageUrl": "/skills/flutter.svg"
+        },
+        {
+            "label": "Dart",
+            "imageUrl": "/skills/dart.svg"
+        },
+        {
+            "label": "HTML",
+            "imageUrl": "/skills/html.svg"
+        },
+        {
+            "label": "CSS",
+            "imageUrl": "/skills/css.svg"
+        },
+        {
+            "label": "jQuery",
+            "imageUrl": "/skills/jquery.svg"
+        },
+        {
+            "label": "Selenium",
+            "imageUrl": "/skills/selenium.svg"
+        }
+    ]
+}
