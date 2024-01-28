@@ -11,7 +11,7 @@
 }
 
 .extButton {
-    font-size: 2rem;
+    font-size: 2rem !important;
 }
 
 @keyframes ext-animation {
