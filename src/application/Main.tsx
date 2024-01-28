@@ -4,7 +4,6 @@ import Overview from "./overview/Overview";
 import Skills from "./skills/Skills";
 import Experience from "./experience/Experience";
 
-
 function Main() {
     return <Fragment>
         {/* <Navigator /> */}
