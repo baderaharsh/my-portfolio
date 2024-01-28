@@ -1,5 +1,5 @@
 .experience {
-    margin: 0px;    
+    margin: 0px;
     background-color: #1e1d1f;
 }
 
@@ -9,6 +9,10 @@
     border-top-left-radius: 2rem;
     padding-bottom: 5rem;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .timeline {
@@ -20,4 +24,41 @@
 .experienceInnerDiv h1 {
     margin: 0px;
     padding: 2.5rem 0px;
+}
+
+.mExperienceDiv {
+    padding-top: 3rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading h2 {
+    padding-top: 2rem;
+}
+
+.headingBorder {
+    width: 50vw;
+    height: 0.4rem;
+    margin: 1rem 2rem;
+    margin-bottom: 2rem;
+    background-color: #0081B4;
+    box-shadow: 0 0 10px #0081B4;
+    border-radius: 2rem;
+}
+
+@media screen and (max-width: 980px) and (orientation: portrait) {
+
+    .heading h2 {
+        margin: 0px;
+    }
+
+    .headingBorder {
+        width: 70vw;
+        margin: 1rem 2rem;
+        background-color: #0081B4;
+        box-shadow: 0 0 10px #0081B4;
+    }
 }
